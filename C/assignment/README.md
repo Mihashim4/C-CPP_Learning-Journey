@@ -1,46 +1,47 @@
-# C++ Programming Assignments
+# C Programming Assignments
 
-This directory contains practical assignments completed during my C++ learning journey. The exercises help me apply programming fundamentals and develop logical problem-solving skills.
+This directory contains practical assignments completed as part of my C programming journey. These exercises help me apply programming fundamentals to small, focused problems.
 
 ## Assignments
 
 ### Simple Interest
 
-A beginner-level assignment involving the calculation of simple interest using the formula:
+A beginner-level assignment focused on calculating simple interest using the relevant mathematical formula.
+
+The general formula is:
 
 \[
 SI = \frac{P \times R \times T}{100}
 \]
 
 Where:
-- \(P\) is the principal amount.
-- \(R\) is the annual interest rate.
-- \(T\) is the time period in years.
+- \(P\) represents the principal amount.
+- \(R\) represents the annual interest rate.
+- \(T\) represents the time period in years.
 
-Refer to the source code for the actual implementation, inputs, and output.
+The program's actual input method, calculation, and output should be verified against its source code.
 
 ## Learning Objectives
 
-- Convert a mathematical formula into program logic.
-- Practise variables and arithmetic expressions.
-- Understand the structure of a C++ program.
-- Compile and execute C++ source files.
-- Apply programming concepts to practical exercises.
+- Translate a mathematical formula into program logic.
+- Work with variables and arithmetic operations.
+- Practise taking input and displaying output, where required.
+- Compile and execute a C program.
 
 ## Compile and Run
 
-Compile the relevant C++ source file using G++:
+Use GCC with the actual source filename:
 
 ```bash
-g++ <source-file>.cpp -o simple_interest.exe
+gcc <source-file>.c -o simple_interest.exe
 ```
 
-Run the compiled program in PowerShell:
+Then execute it in PowerShell:
 
 ```powershell
 .\simple_interest.exe
 ```
 
-Replace `<source-file>.cpp` with the exact source filename in this directory.
+Replace `<source-file>.c` with the exact filename in this folder.
 
-**Parent directory:** [C++ Programming](../README.md)
+**Parent directory:** [C Programming](../README.md)
