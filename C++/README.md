@@ -1,44 +1,44 @@
-# C Programming
+# C++ Programming
 
-This directory contains my C programming exercises and practice programs. I am using these programs to understand the fundamentals of procedural programming and develop a structured approach to solving programming problems.
+This directory contains my C++ practice programs as I learn the language, explore its syntax, and develop my programming skills through hands-on exercises.
 
 ## Programs
 
 | File | Learning focus |
 |---|---|
-| `firstprogram.c` | Basic C program structure and execution |
-| `Tokens.c` | Introduction to tokens in C |
+| `firstcppprogram.cpp` | Basic C++ program structure and execution |
+| `tokens.cpp` | Introduction to tokens in C++ |
 | `assignment/` | Programming assignments and practical exercises |
 
 ## Topics Covered
 
-- Structure of a C program
-- Header files and the `main()` function
+- Structure of a C++ program
+- The `main()` function
 - Basic syntax and statements
-- C language tokens
-- Compiling and executing C programs
-- Problem-solving through assignments
+- C++ language tokens
+- Compiling and running C++ programs
+- Applying programming concepts through assignments
 
 ## Compile and Run
 
-Compile a C source file using GCC:
+Compile a C++ source file using G++:
 
 ```bash
-gcc firstprogram.c -o firstprogram.exe
+g++ firstcppprogram.cpp -o firstcppprogram.exe
 ```
 
-Run the executable in the VS Code terminal on Windows:
+Run the program in the VS Code terminal on Windows:
 
 ```powershell
-.\firstprogram.exe
+.\firstcppprogram.exe
 ```
 
-Replace `firstprogram.c` with the source file you want to compile.
+Replace the filename with the C++ source file you want to compile.
 
 ## Learning Approach
 
-Each program helps me practise a concept, understand the structure of C code, and gain experience with the development workflow.
+I use small programs to practise concepts, identify mistakes, and become more comfortable with writing, compiling, and debugging C++ code.
 
-This directory will be updated as I progress through the language.
+This directory will grow as I progress through the language.
 
 **Parent repository:** [C & C++ Learning Journey](https://github.com/Mihashim4/C-CPP_Learning-Journey)
