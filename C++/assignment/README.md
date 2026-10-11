@@ -1,44 +1,47 @@
-# C++ Programming
+# C Programming Assignments
 
-This directory contains my C++ practice programs as I learn the language, explore its syntax, and develop my programming skills through hands-on exercises.
+This directory contains practical assignments completed as part of my C programming journey. These exercises help me apply programming fundamentals to small, focused problems.
 
-## Programs
+## Assignments
 
-| File | Learning focus |
-|---|---|
-| `firstcppprogram.cpp` | Basic C++ program structure and execution |
-| `tokens.cpp` | Introduction to tokens in C++ |
-| `assignment/` | Programming assignments and practical exercises |
+### Simple Interest
 
-## Topics Covered
+A beginner-level assignment focused on calculating simple interest using the relevant mathematical formula.
 
-- Structure of a C++ program
-- The `main()` function
-- Basic syntax and statements
-- C++ language tokens
-- Compiling and running C++ programs
-- Applying programming concepts through assignments
+The general formula is:
+
+\[
+SI = \frac{P \times R \times T}{100}
+\]
+
+Where:
+- \(P\) represents the principal amount.
+- \(R\) represents the annual interest rate.
+- \(T\) represents the time period in years.
+
+The program's actual input method, calculation, and output should be verified against its source code.
+
+## Learning Objectives
+
+- Translate a mathematical formula into program logic.
+- Work with variables and arithmetic operations.
+- Practise taking input and displaying output, where required.
+- Compile and execute a C program.
 
 ## Compile and Run
 
-Compile a C++ source file using G++:
+Use GCC with the actual source filename:
 
 ```bash
-g++ firstcppprogram.cpp -o firstcppprogram.exe
+gcc <source-file>.c -o simple_interest.exe
 ```
 
-Run the program in the VS Code terminal on Windows:
+Then execute it in PowerShell:
 
 ```powershell
-.\firstcppprogram.exe
+.\simple_interest.exe
 ```
 
-Replace the filename with the C++ source file you want to compile.
+Replace `<source-file>.c` with the exact filename in this folder.
 
-## Learning Approach
-
-I use small programs to practise concepts, identify mistakes, and become more comfortable with writing, compiling, and debugging C++ code.
-
-This directory will grow as I progress through the language.
-
-**Parent repository:** [C & C++ Learning Journey](https://github.com/Mihashim4/C-CPP_Learning-Journey)
+**Parent directory:** [C Programming](../README.md)
